@@ -5,5 +5,5 @@ httpx
 psycopg2-binary
 python-dotenv
 pydantic
-SQLAlchemy==1.4.49
+sqlalchemy==1.4.49
 databases
