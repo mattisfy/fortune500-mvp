@@ -1,7 +1,7 @@
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from .routes.companies import router as companies_router
+from routes.companies import router as companies_router
 from dotenv import load_dotenv
 import os
 load_dotenv()
