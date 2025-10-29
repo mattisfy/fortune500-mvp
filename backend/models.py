@@ -1,7 +1,7 @@
 
 from sqlalchemy import Table, Column, Integer, String, Text, DateTime, Numeric
 from sqlalchemy.sql import func
-from backend.db import metadata
+from db import metadata
 
 companies = Table(
     "companies",
